@@ -1,0 +1,23 @@
+/* components/resultItem/resultItem.wxss */
+.font-666{
+	color: #666;
+}
+.black{
+	color: rgba(255, 0, 0, 0.788)
+}
+.page__bg{
+background-color: #f2ce2b59;
+margin: 20rpx;
+border-radius: 20rpx;
+padding:0 20rpx;
+}
+
+.btn-item{
+	/* background-color: #1ba784; */
+	letter-spacing: 40rpx;
+	font-weight: bold;
+}
+
+.weui-form-preview__btn_active{
+	background-color: rgba(204, 204, 204, 0.137);
+}

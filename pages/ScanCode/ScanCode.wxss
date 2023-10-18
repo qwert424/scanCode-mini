@@ -1,0 +1,5 @@
+/* pages/ScanCode/ScanCode.wxss */
+
+.btn-Identify{
+	margin: 40rpx;
+}

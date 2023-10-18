@@ -1,0 +1,32 @@
+/* pages/QRCode/QRCode.wxss */
+.input-item{
+	border: 1rpx solid;
+	margin: 80rpx 10rpx;
+	height: 80rpx;
+	padding: 0 40rpx;
+}
+
+.btn-item {
+	margin: 40rpx 0;
+}
+
+.btn-hover-item {
+	box-shadow: 0 0 15rpx green;
+}
+
+.canvas-item {
+	width: 600rpx;
+	height: 600rpx;
+	margin: 50rpx auto;
+	position: relative;
+}
+.showClass::after{
+	content: "<目前仅支持截图保存，因为我解决不了一个bug...>";
+	position: absolute;
+	bottom:-50rpx;
+	left: 0;
+	width:100%;
+	display: block;
+	font-size: 26rpx;
+	color: #666;
+}

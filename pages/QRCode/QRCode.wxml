@@ -1,0 +1,5 @@
+<!--pages/QRCode/QRCode.wxml-->
+<input type="text" bind:input="handleTxtChange" placeholder="输入要生成二维码的内容" class="input-item" model:value="{{txtAreaVal}}" />
+<button bind:tap="handleTap" type="primary" class="btn-item" hover-class="btn-hover-item">点击生成二维码</button>
+
+<canvas type="2d" id="myCanvas" disable-scroll class="canvas-item {{!codeShow?'showClass':''}}" style="{{!codeShow ?'outline: 1rpx solid' :''}}"></canvas>

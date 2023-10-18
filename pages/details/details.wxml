@@ -1,0 +1,3 @@
+<!--pages/details/details.wxml-->
+<result-item scanResult="{{itemDetails}}"></result-item>
+<button type="warn" bind:tap="handleDelete" class="btn">删除 记录</button>

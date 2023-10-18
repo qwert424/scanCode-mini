@@ -1,0 +1,43 @@
+{
+  "entryPagePath": "pages/ScanCode/ScanCode",
+  "pages": [
+    "pages/ScanCode/ScanCode",
+    "pages/QRCode/QRCode",
+    "pages/logs/logs",
+    "pages/details/details"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#579572",
+    "navigationBarTitleText": "二维码 识别",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "backgroundColor": "#eee",
+    "selectedColor": "#000",
+    "color": "#666",
+    "list": [
+      {
+        "pagePath": "pages/ScanCode/ScanCode",
+        "text": "扫码",
+        "iconPath": "/assets/ziyuan.png",
+        "selectedIconPath": "/assets/ziyuan-sel.png"
+      },
+      {
+        "pagePath": "pages/QRCode/QRCode",
+        "text": "创建",
+        "iconPath": "/assets/erweima.png",
+        "selectedIconPath": "/assets/erweima-sel.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "历史",
+        "iconPath": "/assets/lishi.png",
+        "selectedIconPath": "/assets/lishi-sel.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

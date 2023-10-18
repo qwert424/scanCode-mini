@@ -1,0 +1,4 @@
+/* pages/details/details.wxss */
+.btn{
+	margin: 40rpx;
+}

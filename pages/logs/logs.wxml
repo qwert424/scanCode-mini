@@ -1,0 +1,8 @@
+<!--logs.wxml-->
+<view class="container" wx:for="{{logsList}}" wx:key="this" bind:tap="handleTap" data-item="{{item}}" data-index="{{index}}">
+	<view class="item">
+		<text class="scanCode">{{item.scanCode}}</text>
+		<text class="date">{{item.date}}</text>
+	</view>
+	<text class="rusult">{{item.result}}</text>
+</view>

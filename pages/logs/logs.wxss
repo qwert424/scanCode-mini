@@ -1,0 +1,32 @@
+.container{
+	width: calc(100%-80);
+	box-sizing: border-box;
+	margin: 40rpx;
+	height: 180rpx;
+	padding:  20rpx;
+	border: 1rpx solid #bbb;
+	display: flex;
+	flex-direction: column;
+}
+.item{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+
+.rusult{
+	border-top:1rpx solid #eee ;
+	height:80rpx;
+	margin-top: 20rpx;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 80rpx;
+	color: #666;
+}
+.date{
+	width: 300rpx;
+	font-size: 28rpx;
+	color: #bbb;
+}

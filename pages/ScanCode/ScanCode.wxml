@@ -1,0 +1,3 @@
+<!--pages/ScanCode/ScanCode.wxml-->
+<result-item wx:if="{{ifhidden}}" scanResult="{{QrCode}}"></result-item>
+<button type="primary" plain class="btn-Identify" bind:tap="handleTap">扫 一 扫</button>
